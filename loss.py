@@ -107,9 +107,3 @@ if __name__ == '__main__':
     loss = loss_fn(predicted_motion, ground_truth)
     
     print(f"Phonetic Context-Aware Loss (window_size=5, reduction='mean'): {loss.item()}")
-
-    # Test with reduction='sum'
-    loss_fn_sum = PhoneticContextAwareLoss(window_size=5, reduction='sum')
-    loss_sum = loss_fn_sum(predicted_motion, ground_truth)
-    print(f"Phonetic Context-Aware Loss (window_size=5, reduction='sum'): {loss_sum.item()}")
-
