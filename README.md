@@ -115,3 +115,5 @@ SOFTWARE.
 
 - **Hyung Kyu Kim**
 - **Hak Gu Kim**
+
+**🌐 [Project Page](https://cau-irislab.github.io/interspeech25/) | 📄 [Paper](https://www.isca-archive.org/interspeech_2025/kim25r_interspeech.html)
